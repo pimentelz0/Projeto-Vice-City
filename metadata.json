@@ -1,0 +1,6 @@
+{
+  "name": "Projeto Vice City - Landing Page",
+  "description": "Landing page de vendas de alta conversão para o infoproduto Projeto Vice City (GTA VI)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

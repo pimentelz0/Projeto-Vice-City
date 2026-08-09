@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-bebas {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Vice City Neon Aesthetics */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #07050e;
+  color: #f1f5f9;
+}
+
+.neon-glow-pink {
+  box-shadow: 0 0 20px rgba(255, 42, 133, 0.3);
+}
+
+.neon-glow-btn {
+  box-shadow: 0 0 25px rgba(255, 42, 133, 0.4), 0 0 50px rgba(249, 115, 22, 0.25);
+  transition: all 0.3s ease;
+}
+
+.neon-glow-btn:hover {
+  box-shadow: 0 0 35px rgba(255, 42, 133, 0.65), 0 0 70px rgba(249, 115, 22, 0.45);
+  transform: translateY(-2px);
+}
+
+.neon-border {
+  border-image: linear-gradient(to right, #ff2a85, #8b5cf6, #f97316) 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #07050e;
+}
+::-webkit-scrollbar-thumb {
+  background: #23193a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b2a63;
+}
