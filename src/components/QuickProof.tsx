@@ -1,6 +1,6 @@
 import React from 'react';
 import { LANDING_CONTENT } from '../data/landingData';
-import analyticsMockup from '../assets/images/analytics_proof_mockup_1786309037712.jpg';
+import analyticsMockup from '../assets/images/modo_gta6_analytics_proof_1786369034309.jpg';
 
 export const QuickProof: React.FC = () => {
   const { quickProof } = LANDING_CONTENT;

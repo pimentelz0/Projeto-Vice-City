@@ -1,7 +1,7 @@
 import React from 'react';
 import { LANDING_CONTENT } from '../data/landingData';
 import { Check } from 'lucide-react';
-import memberAreaMockup from '../assets/images/member_area_mockup_1786249073839.jpg';
+import memberAreaMockup from '../assets/images/modules_package_bundle_1786368777236.jpg';
 
 export const ModulesGrid: React.FC = () => {
   const { modulesTitle, modulesSubtitle, modules } = LANDING_CONTENT;
