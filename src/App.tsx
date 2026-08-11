@@ -19,7 +19,7 @@ export default function App() {
   const [checkoutUrl] = useState<string>('https://pay.kiwify.com.br/QNyzh80');
 
   return (
-    <div className="min-h-screen bg-[#07050e] text-slate-100 flex flex-col font-sans selection:bg-pink-500 selection:text-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans selection:bg-pink-500 selection:text-white relative overflow-x-hidden">
       
       {/* 1. BARRA FIXA no topo: Contador do GTA VI */}
       <CountdownHeader />
@@ -74,10 +74,10 @@ export default function App() {
           <FinalCta checkoutUrl={checkoutUrl} />
 
           {/* Footer */}
-          <footer className="py-10 px-4 text-center border-t border-slate-900/80 text-xs text-slate-500">
+          <footer className="py-10 px-4 text-center border-t border-slate-200 text-xs text-slate-500">
             <div className="max-w-md mx-auto space-y-2">
-              <p className="font-medium text-slate-400">Projeto Vice City &copy; Todos os direitos reservados.</p>
-              <p className="text-[11px] opacity-60">
+              <p className="font-medium text-slate-600">Projeto Vice City &copy; Todos os direitos reservados.</p>
+              <p className="text-[11px] opacity-75">
                 Este site não possui afiliação ou vínculo oficial com a Rockstar Games ou Take-Two Interactive.
               </p>
             </div>

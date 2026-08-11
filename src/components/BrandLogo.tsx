@@ -47,8 +47,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ size = 'md' }) => {
 
       {/* Brand Title */}
       <div className="flex flex-col text-left">
-        <span className={`font-bebas ${textSize} tracking-wider leading-none text-white drop-shadow-[0_0_15px_rgba(255,42,133,0.4)]`}>
-          PROJETO <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-amber-400 to-pink-400">VICE CITY</span>
+        <span className={`font-bebas ${textSize} tracking-wider leading-none text-slate-900 drop-shadow-sm`}>
+          PROJETO <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-purple-600 to-amber-500 font-extrabold">VICE CITY</span>
         </span>
       </div>
     </div>

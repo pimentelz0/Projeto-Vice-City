@@ -9,18 +9,18 @@ export const BonusSection: React.FC = () => {
     <section className="py-6 px-4">
       <div className="max-w-xl mx-auto">
         
-        <div className="bg-[#120a24] border border-purple-500/30 rounded-xl p-5 text-center">
+        <div className="bg-white border border-purple-200 rounded-xl p-5 text-center shadow-lg">
           
-          <h2 className="font-bebas text-2xl sm:text-3xl text-white tracking-wider mb-1">
+          <h2 className="font-bebas text-2xl sm:text-3xl text-slate-900 tracking-wider mb-1">
             {bonusesTitle}
           </h2>
           
-          <p className="text-slate-400 text-xs mb-4">
+          <p className="text-slate-600 text-xs mb-4">
             {bonusesSubtitle}
           </p>
 
           {/* Bonus Visual Mockup */}
-          <div className="mb-5 rounded-xl overflow-hidden border border-purple-500/30 bg-[#090412] p-1 shadow-lg">
+          <div className="mb-5 rounded-xl overflow-hidden border border-slate-200 bg-slate-50 p-1 shadow-md">
             <img
               src={bonusMockup}
               alt="Bônus Exclusivos Projeto Vice City"
@@ -35,18 +35,18 @@ export const BonusSection: React.FC = () => {
                 key={bonus.id}
                 className={`p-3.5 rounded-xl text-left border flex items-start gap-3 transition-all ${
                   bonus.isFastAction
-                    ? 'bg-[#150a10] border-amber-500/40 shadow-lg shadow-amber-500/5'
-                    : 'bg-[#090412] border-purple-500/20'
+                    ? 'bg-amber-50/90 border-amber-300 shadow-md'
+                    : 'bg-slate-50 border-slate-200'
                 }`}
               >
                 <span className="text-lg shrink-0 mt-0.5">
                   {bonus.icon || "🎁"}
                 </span>
-                <div className="text-xs sm:text-sm leading-relaxed text-slate-200">
-                  <strong className="font-bold text-white mr-1.5">
+                <div className="text-xs sm:text-sm leading-relaxed text-slate-800">
+                  <strong className="font-bold text-slate-900 mr-1.5">
                     {bonus.title}
                   </strong>
-                  <span className="text-slate-300 font-normal">
+                  <span className="text-slate-700 font-normal">
                     {bonus.description}
                   </span>
                 </div>

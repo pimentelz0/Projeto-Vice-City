@@ -8,19 +8,19 @@ export const QuickProof: React.FC = () => {
   return (
     <section className="py-4 px-4">
       <div className="max-w-xl mx-auto">
-        <div className="bg-[#110a20] border border-[#23153d] rounded-xl p-4 sm:p-5 text-center">
+        <div className="bg-white border border-slate-200 rounded-xl p-4 sm:p-5 text-center shadow-lg">
           
-          <p className="text-xs sm:text-sm font-bold text-slate-200 mb-3.5">
+          <p className="text-xs sm:text-sm font-bold text-slate-800 mb-3.5">
             {quickProof.title}
           </p>
 
           <div className="grid grid-cols-3 gap-2 mb-4">
             {quickProof.stats.map((stat, idx) => (
-              <div key={idx} className="bg-[#0a0514] border border-pink-500/20 rounded-lg p-2.5 flex flex-col items-center justify-center">
-                <span className="font-bebas text-2xl sm:text-3xl text-pink-400 leading-none mb-0.5">
+              <div key={idx} className="bg-pink-50/60 border border-pink-200 rounded-lg p-2.5 flex flex-col items-center justify-center">
+                <span className="font-bebas text-2xl sm:text-3xl text-pink-600 leading-none mb-0.5">
                   {stat.number}
                 </span>
-                <span className="text-[10px] sm:text-xs text-slate-400 font-medium leading-tight">
+                <span className="text-[10px] sm:text-xs text-slate-600 font-medium leading-tight">
                   {stat.label}
                 </span>
               </div>
@@ -28,7 +28,7 @@ export const QuickProof: React.FC = () => {
           </div>
 
           {/* Clean Proof Analytics Visual */}
-          <div className="rounded-xl overflow-hidden border border-pink-500/20 bg-[#0a0514] p-1 shadow-lg">
+          <div className="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 p-1 shadow-md">
             <img
               src={analyticsMockup}
               alt="Métricas de +500k visualizações em 1 semana"

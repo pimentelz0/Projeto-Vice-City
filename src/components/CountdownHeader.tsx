@@ -29,11 +29,11 @@ export const CountdownHeader: React.FC = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 h-12 bg-gradient-to-r from-[#180325] via-[#3d0928] to-[#180325] border-b border-pink-500/40 z-40 flex items-center justify-center px-4 shadow-md text-xs sm:text-sm font-semibold tracking-wide text-pink-100">
+    <div className="fixed top-0 left-0 right-0 h-12 bg-gradient-to-r from-purple-900 via-pink-700 to-purple-900 border-b border-pink-400 z-40 flex items-center justify-center px-4 shadow-md text-xs sm:text-sm font-semibold tracking-wide text-white">
       <div className="flex items-center gap-2">
         <span className="text-base">⏳</span>
         <span>
-          Faltam <strong className="text-pink-400 font-bold underline decoration-pink-500/50">{daysLeft} dias</strong> e <strong className="text-amber-300 font-bold">{hoursLeft}h</strong> pro lançamento de GTA VI (19/11)
+          Faltam <strong className="text-amber-300 font-bold underline decoration-pink-300/60">{daysLeft} dias</strong> e <strong className="text-amber-300 font-bold">{hoursLeft}h</strong> pro lançamento de GTA VI (19/11)
         </span>
       </div>
     </div>

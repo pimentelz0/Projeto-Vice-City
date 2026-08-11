@@ -16,14 +16,14 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
       padding: 0;
     }
     :root {
-      --bg-dark: #07050e;
-      --card-bg: #120c22;
-      --card-border: #25183e;
-      --pink-neon: #ff2a85;
-      --purple-neon: #8b5cf6;
-      --orange-neon: #f97316;
-      --text-white: #f8fafc;
-      --text-muted: #94a3b8;
+      --bg-dark: #f8fafc;
+      --card-bg: #ffffff;
+      --card-border: #e2e8f0;
+      --pink-neon: #db2777;
+      --purple-neon: #7c3aed;
+      --orange-neon: #ea580c;
+      --text-white: #0f172a;
+      --text-muted: #475569;
     }
     body {
       background-color: var(--bg-dark);
@@ -63,15 +63,15 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
       left: 0;
       right: 0;
       height: 48px;
-      background: linear-gradient(90deg, #180325, #350920, #180325);
-      border-bottom: 1px solid rgba(255, 42, 133, 0.4);
+      background: linear-gradient(90deg, #581c87, #be185d, #581c87);
+      border-bottom: 1px solid #f472b6;
       display: flex;
       align-items: center;
       justify-content: center;
       z-index: 9999;
       font-size: 13px;
       font-weight: 700;
-      color: #ffe4e6;
+      color: #ffffff;
       letter-spacing: 0.3px;
     }
     .top-bar span {
@@ -84,15 +84,15 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
     .hero {
       position: relative;
       padding: 40px 0 32px 0;
-      background: radial-gradient(circle at 50% 20%, rgba(255, 42, 133, 0.15) 0%, rgba(139, 92, 246, 0.08) 40%, transparent 80%);
+      background: radial-gradient(circle at 50% 20%, rgba(251, 207, 232, 0.4) 0%, rgba(233, 213, 255, 0.2) 40%, transparent 80%);
     }
     .hero-tag {
       display: inline-block;
       padding: 6px 14px;
       border-radius: 20px;
-      background: rgba(255, 42, 133, 0.12);
-      border: 1px solid rgba(255, 42, 133, 0.3);
-      color: var(--pink-neon);
+      background: #fce7f3;
+      border: 1px solid #fbcfe8;
+      color: #be185d;
       font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
@@ -102,8 +102,7 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
       font-size: 38px;
       line-height: 1.05;
       margin-bottom: 16px;
-      color: #ffffff;
-      text-shadow: 0 0 20px rgba(255, 42, 133, 0.3);
+      color: #0f172a;
     }
     .hero p {
       font-size: 15px;
@@ -625,7 +624,7 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
         Faltam poucos meses. <strong style="color: #fff;">Quem entender o que está acontecendo agora</strong> pode entrar pra próxima geração de criadores lucrativos da internet. <span style="text-decoration: underline; text-decoration-color: #ff2a85;">Quem só assistir, vai ver os outros faturarem.</span>
       </p>
       
-      <a href="${checkoutUrl}" class="btn-cta">QUERO GARANTIR MEU ACESSO AGORA</a>
+      <a href="${checkoutUrl}" target="_blank" rel="noopener noreferrer" class="btn-cta">QUERO GARANTIR MEU ACESSO AGORA</a>
       <p class="microcopy">⚡ Acesso imediato em uma área de membros • Compra 100% segura</p>
     </div>
   </section>
@@ -876,7 +875,7 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
         <div class="price-badge">ACESSO IMEDIATO • ÁREA DE MEMBROS</div>
         
         <br>
-        <a href="${checkoutUrl}" class="btn-cta">SIM! QUERO ACESSO POR R$ 27,90</a>
+        <a href="${checkoutUrl}" target="_blank" rel="noopener noreferrer" class="btn-cta">SIM! QUERO ACESSO POR R$ 27,90</a>
         <p class="microcopy">🔒 Pagamento 100% seguro • Acesso imediato em uma área de membros</p>
       </div>
     </div>
@@ -951,7 +950,7 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
       <h2>Seu canal de GTA VI pronto para postar hoje</h2>
       <p>Aproveite o menor preço e garanta seu acesso ao método completo antes do lançamento.</p>
 
-      <a href="${checkoutUrl}" class="btn-cta">QUERO MEU CANAL DE GTA VI AGORA</a>
+      <a href="${checkoutUrl}" target="_blank" rel="noopener noreferrer" class="btn-cta">QUERO MEU CANAL DE GTA VI AGORA</a>
       <p class="microcopy">⚡ Acesso imediato em uma área de membros • Oferta por tempo limitado</p>
     </div>
   </section>

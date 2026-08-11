@@ -8,16 +8,16 @@ export const GuaranteeSection: React.FC = () => {
     <section className="py-6 px-4">
       <div className="max-w-xl mx-auto">
         
-        <div className="bg-[#100a1f] border border-[#22133d] rounded-xl p-5 text-center flex flex-col items-center gap-2">
+        <div className="bg-white border border-slate-200 rounded-xl p-5 text-center flex flex-col items-center gap-2 shadow-lg">
           <div className="text-3xl mb-1">
             🛡️
           </div>
 
-          <h3 className="font-bebas text-2xl sm:text-3xl text-white tracking-wide">
+          <h3 className="font-bebas text-2xl sm:text-3xl text-slate-900 tracking-wide">
             {guarantee.title}
           </h3>
 
-          <p className="text-slate-300 text-xs sm:text-sm max-w-md leading-relaxed font-medium">
+          <p className="text-slate-700 text-xs sm:text-sm max-w-md leading-relaxed font-medium">
             {guarantee.description}
           </p>
         </div>
