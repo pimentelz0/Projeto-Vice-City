@@ -16,7 +16,7 @@ import { FinalCta } from './components/FinalCta';
 import { CitySkylineBg } from './components/CitySkylineBg';
 
 export default function App() {
-  const [checkoutUrl] = useState<string>('#');
+  const [checkoutUrl] = useState<string>('https://pay.kiwify.com.br/QNyzh80');
 
   return (
     <div className="min-h-screen bg-[#07050e] text-slate-100 flex flex-col font-sans selection:bg-pink-500 selection:text-white relative overflow-x-hidden">

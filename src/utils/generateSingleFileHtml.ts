@@ -1,4 +1,4 @@
-export function generateSingleFileHtml(checkoutUrl: string = '#'): string {
+export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify.com.br/QNyzh80'): string {
   return `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
