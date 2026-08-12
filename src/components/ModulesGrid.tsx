@@ -25,6 +25,8 @@ export const ModulesGrid: React.FC = () => {
           <img
             src={memberAreaMockup}
             alt="Área de Membros do Projeto Vice City"
+            loading="lazy"
+            decoding="async"
             referrerPolicy="no-referrer"
             className="w-full h-auto rounded-xl object-cover"
           />

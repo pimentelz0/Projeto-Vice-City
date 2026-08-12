@@ -616,9 +616,20 @@ export function generateSingleFileHtml(checkoutUrl: string = 'https://pay.kiwify
         MONTE SEU CANAL DE <span style="background: linear-gradient(90deg, #ff2a85, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">GTA VI</span> – 100% <span style="color: #ff2a85; font-weight: 800;">PRONTO</span> PRA POSTAR – E <span style="color: #34d399; font-weight: 800;">LUCRE</span> COM A <span style="background: linear-gradient(90deg, #ff2a85, #c084fc, #fbbf24); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">MAIOR ONDA DE ATENÇÃO DA HISTÓRIA</span>
       </h1>
 
-      <p style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 0.5px; color: #cbd5e1; text-transform: uppercase; line-height: 1.2; margin-bottom: 20px;">
+      <p style="font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 0.5px; color: #475569; text-transform: uppercase; line-height: 1.2; margin-bottom: 20px;">
         SEM APARECER, SEM SABER EDITAR E SEM PRECISAR TER O JOGO
       </p>
+
+      <!-- HERO VIDEO CONTAINER -->
+      <div style="margin-bottom: 20px; border-radius: 16px; overflow: hidden; border: 2px solid #ec4899; background: #0f172a; padding: 6px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
+        <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000;">
+          <video controls autoplay muted loop playsinline preload="metadata" style="width: 100%; height: 100%; object-fit: cover; border-radius: 12px;">
+            <source src="video.mp4#t=0.001" type="video/mp4">
+            <source src="/video.mp4#t=0.001" type="video/mp4">
+            Seu navegador não suporta a exibição deste vídeo.
+          </video>
+        </div>
+      </div>
 
       <p style="font-size: 13px; color: #cbd5e1; text-align: left; background: rgba(10, 4, 20, 0.9); padding: 14px; border-radius: 12px; border: 1px solid rgba(192, 132, 252, 0.2); line-height: 1.5; margin-bottom: 20px;">
         Faltam poucos meses. <strong style="color: #fff;">Quem entender o que está acontecendo agora</strong> pode entrar pra próxima geração de criadores lucrativos da internet. <span style="text-decoration: underline; text-decoration-color: #ff2a85;">Quem só assistir, vai ver os outros faturarem.</span>

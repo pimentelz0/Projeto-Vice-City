@@ -11,8 +11,8 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({ size = 'md' }) => {
   return (
     <div className="inline-flex items-center gap-3 group select-none">
       {/* Unique Custom SVG Vice City Sunset & Palm Emblem */}
-      <div className={`relative ${iconSize} shrink-0`}>
-        <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-pink-500 via-purple-600 to-amber-500 blur-[4px] opacity-75 group-hover:opacity-100 transition-opacity"></div>
+      <div className={`relative ${iconSize} shrink-0 transform-gpu`}>
+        <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-pink-500 via-purple-600 to-amber-500 blur-[3px] opacity-75 group-hover:opacity-100 transition-opacity"></div>
         <div className="relative w-full h-full rounded-xl bg-[#0d0618] border border-pink-500/60 p-1 flex items-center justify-center shadow-md overflow-hidden">
           <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
             <defs>

@@ -24,6 +24,8 @@ export const BonusSection: React.FC = () => {
             <img
               src={bonusMockup}
               alt="Bônus Exclusivos Projeto Vice City"
+              loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="w-full h-auto rounded-lg object-cover"
             />

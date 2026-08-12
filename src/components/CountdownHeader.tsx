@@ -29,7 +29,7 @@ export const CountdownHeader: React.FC = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 h-12 bg-gradient-to-r from-purple-900 via-pink-700 to-purple-900 border-b border-pink-400 z-40 flex items-center justify-center px-4 shadow-md text-xs sm:text-sm font-semibold tracking-wide text-white">
+    <div className="fixed top-0 left-0 right-0 h-12 bg-gradient-to-r from-purple-900 via-pink-700 to-purple-900 border-b border-pink-400 z-40 flex items-center justify-center px-4 shadow-md text-xs sm:text-sm font-semibold tracking-wide text-white transform-gpu">
       <div className="flex items-center gap-2">
         <span className="text-base">⏳</span>
         <span>

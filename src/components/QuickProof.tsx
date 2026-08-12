@@ -32,6 +32,8 @@ export const QuickProof: React.FC = () => {
             <img
               src={analyticsMockup}
               alt="Métricas de +500k visualizações em 1 semana"
+              loading="lazy"
+              decoding="async"
               referrerPolicy="no-referrer"
               className="w-full h-auto rounded-lg object-cover"
             />

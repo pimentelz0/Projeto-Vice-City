@@ -17,9 +17,20 @@ export interface BonusItem {
 export interface TestimonialItem {
   id: string;
   name: string;
+  role?: string;
   avatarPlaceholder: string;
   rating: number;
+  resultBadge?: string;
   content: string;
+  proofImageUrl?: string;
+  dashboardProof?: {
+    lastUpdate: string;
+    totalAmount: string;
+    estimatedRewards: string;
+    views: string;
+    rpm: string;
+    timestamp: string;
+  };
 }
 
 export interface ObjectionItem {

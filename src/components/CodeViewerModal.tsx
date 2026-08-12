@@ -16,8 +16,27 @@ export const CodeViewerModal: React.FC<CodeViewerModalProps> = ({
 
   if (!isOpen) return null;
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(codeHtml);
+  const handleCopy = async () => {
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(codeHtml);
+      } else {
+        throw new Error('Clipboard API not available');
+      }
+    } catch (e) {
+      const textarea = document.createElement('textarea');
+      textarea.value = codeHtml;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+      } catch (err) {
+        console.warn('Copy execCommand failed:', err);
+      }
+      document.body.removeChild(textarea);
+    }
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

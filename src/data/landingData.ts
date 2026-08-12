@@ -1,4 +1,8 @@
 import { ModuleItem, BonusItem, TestimonialItem, ObjectionItem } from '../types';
+import mirettiProof from '../assets/images/miretti_proof_screenshot_1786495521836.jpg';
+import lucasProof from '../assets/images/lucas_proof_screenshot_1786495534595.jpg';
+import luizProof from '../assets/images/luiz_proof_screenshot_1786495548661.jpg';
+import juliaProof from '../assets/images/julia_proof_screenshot_1786495560857.jpg';
 
 export const LANDING_CONTENT = {
   headerCountdownText: "⏳ Faltam {days} dias e {hours}h pro lançamento de GTA VI (19/11)",
@@ -173,29 +177,80 @@ export const LANDING_CONTENT = {
     }
   ] as BonusItem[],
 
-  testimonialsTitle: "DEPOIMENTOS",
-  testimonialsSubtitle: "O que estão achando do Projeto Vice City:",
+  testimonialsTitle: "DEPOIMENTOS DE ALUNOS",
+  testimonialsSubtitle: "Resultados reais de quem está aplicando o método do Projeto Vice City:",
   testimonials: [
     {
       id: "t1",
-      name: "[Nome]",
-      avatarPlaceholder: "[Foto]",
+      name: "Mirelly",
+      role: "Aluna Projeto Vice City",
+      avatarPlaceholder: "MI",
       rating: 5,
-      content: "[depoimento a preencher: texto curto de 2 a 3 linhas com o relato de quem comprou e aplicou o método]"
+      resultBadge: "💵 $312.89 em Recompensas (872.5k views)",
+      content: "Oii, boa tarde! 😄 Precisei vir aqui compartilhar isso com você! $312.89 de recompensa 🙌 É muita coisa pra mim, ainda não caiu a ficha! Tô seguindo tudo certinho que você ensinou e os resultados estão sendo incríveis ✨📈 Muito obrigada por todo suporte, você faz toda a diferença! 🥰💜",
+      proofImageUrl: mirettiProof,
+      dashboardProof: {
+        lastUpdate: "18-2",
+        totalAmount: "$312.89",
+        estimatedRewards: "$312.89",
+        views: "872.5K",
+        rpm: "$0.36",
+        timestamp: "13:56"
+      }
     },
     {
       id: "t2",
-      name: "[Nome]",
-      avatarPlaceholder: "[Foto]",
+      name: "Lucas",
+      role: "Aluno Projeto Vice City",
+      avatarPlaceholder: "LU",
       rating: 5,
-      content: "[depoimento a preencher: texto curto de 2 a 3 linhas com o relato de quem comprou e aplicou o método]"
+      resultBadge: "💵 $204.57 em Recompensas (657.3k views)",
+      content: "Falaaa, boa noitee! 😄 Só passando pra compartilhar minha primeira grande conquista com você! Seguindo tudo certinho que você ensinou, meu canal já tá dando resultado e olha isso! 🚀💰 Muito feliz e motivado pra continuar! Valeuu demais! Tamo junto! 🙏🔥",
+      proofImageUrl: lucasProof,
+      dashboardProof: {
+        lastUpdate: "19-2",
+        totalAmount: "$204.57",
+        estimatedRewards: "$204.57",
+        views: "657.3K",
+        rpm: "$0.31",
+        timestamp: "23:07"
+      }
     },
     {
       id: "t3",
-      name: "[Nome]",
-      avatarPlaceholder: "[Foto]",
+      name: "Luiz",
+      role: "Aluno Projeto Vice City",
+      avatarPlaceholder: "LZ",
       rating: 5,
-      content: "[depoimento a preencher: texto curto de 2 a 3 linhas com o relato de quem comprou e aplicou o método]"
+      resultBadge: "💵 $128.36 em Recompensas (412.7k views)",
+      content: "Bom dia! ☀️ Cara, olha isso! $128.36 de recompensa! 😱 Ainda nem acredito que isso tudo tá acontecendo comigo. Tô seguindo o projeto direitinho, aplicando tudo que você ensinou e os resultados estão aparecendo! 📈🔥 Muito obrigado por todo suporte, tô muito feliz mesmo! Bora pra cima! 💪🚀",
+      proofImageUrl: luizProof,
+      dashboardProof: {
+        lastUpdate: "20-2",
+        totalAmount: "$128.36",
+        estimatedRewards: "$128.36",
+        views: "412.7K",
+        rpm: "$0.31",
+        timestamp: "08:42"
+      }
+    },
+    {
+      id: "t4",
+      name: "Júlia",
+      role: "Aluna Projeto Vice City",
+      avatarPlaceholder: "JU",
+      rating: 5,
+      resultBadge: "💵 $47.55 • Monetizou canal em < 2 meses",
+      content: "Opa, boa noite, realmente quem chega cedo bebe água limpa ein hahaha. Tô seguindo o projeto com consistência e monetizei meu canal em menos de 2 meses. Isso é surreal demaaaaaais. 😭🔥🚀 Muito obrigadaaa! 🙏💜",
+      proofImageUrl: juliaProof,
+      dashboardProof: {
+        lastUpdate: "19-2",
+        totalAmount: "$47.55",
+        estimatedRewards: "$47.55",
+        views: "223.8K",
+        rpm: "$0.21",
+        timestamp: "23:07"
+      }
     }
   ] as TestimonialItem[],
 

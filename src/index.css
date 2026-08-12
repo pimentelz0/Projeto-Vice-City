@@ -9,11 +9,20 @@
   }
 }
 
-/* Vice City Neon Aesthetics */
-body {
+/* Scroll performance & rendering optimization */
+html {
   font-family: 'Montserrat', sans-serif;
   background-color: #f8fafc;
   color: #0f172a;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .neon-glow-pink {
@@ -22,16 +31,12 @@ body {
 
 .neon-glow-btn {
   box-shadow: 0 10px 25px rgba(255, 42, 133, 0.3), 0 4px 12px rgba(249, 115, 22, 0.2);
-  transition: all 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .neon-glow-btn:hover {
   box-shadow: 0 14px 35px rgba(255, 42, 133, 0.45), 0 6px 20px rgba(249, 115, 22, 0.3);
   transform: translateY(-2px);
-}
-
-.neon-border {
-  border-image: linear-gradient(to right, #ff2a85, #8b5cf6, #f97316) 1;
 }
 
 /* Custom scrollbar */
@@ -48,3 +53,5 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #94a3b8;
 }
+
+
